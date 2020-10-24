@@ -7,12 +7,13 @@
   <!--  <link rel="stylesheet"  href="font-awesome.min.css"> -->
     <link rel="stylesheet" type="text/css" href="style.css">
 	 <link rel="stylesheet" href="bootstrap.min.css">
+	  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 	
 
 	<title>Document</title>
 </head>
-<body onload="load()">
+<body>
 <div id="loading"></div>
 
 <div class="header">
@@ -54,21 +55,21 @@
 			<h2 class="section-head">SERVICES</h2>
 		</div>
 		<div class="col-sm-6 col-md-4">
-			<div class="service-box">
+			<div class="service-box" data-aos="fade-up-right">
 				<i class="fa fa-anchor"></i>
 				<h3>some heading</h3>
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Cumque, voluptatem.</p>
 			</div>
 		</div>
 		<div class="col-sm-6 col-md-4">
-			<div class="service-box">
+			<div class="service-box" data-aos="fade-up-right">
 				<i class="fa fa-bar-chart"></i>
 				<h3>some heading</h3>
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Cumque, voluptatem.</p>
 			</div>
 		</div>
 		<div class="col-sm-6 col-md-4">
-			<div class="service-box">
+			<div class="service-box" data-aos="fade-up-right">
 				<i class="fa fa-diamond"></i>
 				<h3>some heading</h3>
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Cumque, voluptatem.</p>
@@ -85,7 +86,7 @@
 				<h2 class="section-head text-white">TESTIMONIALS</h2>
 			</div>
 			<div class="col-md-6">
-				<div class="testimonial">
+				<div class="testimonial" data-aos="zoom-in-up">
 					<p class="lead">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate labore consequuntur, obcaecati magni dignissimos rerum.</p>
 					<img src="img/3.jpeg" alt="" style="width: 15rem;height: 13rem;">
 					<div class="author lead">BILL GATES</div>
@@ -93,7 +94,7 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<div class="testimonial">
+				<div class="testimonial" data-aos="zoom-in-up">
 					<p class="lead">Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate labore consequuntur, obcaecati magni dignissimos rerum.</p>
 					<img src="img/4.jpeg" alt="" style="width: 15rem;height: 13rem;">
 					<div class="author lead">STEVE JOBS</div>
@@ -114,7 +115,7 @@
 			<h2 class="section-head">RECENT NEWS</h2>
 		</div>
 		<div class="col-md-6 col-lg-3">
-			<div class="news-post">
+			<div class="news-post" data-aos="flip-left">
 				<img src="img/6.jpeg" alt="">
 				<h3><a href="#">NEWS HEADING HERE</a></h3>
 				<div class="post-date">april 30, 2020</div>
@@ -123,7 +124,7 @@
 			</div>
 		</div>
 		<div class="col-md-6 col-lg-3">
-			<div class="news-post">
+			<div class="news-post" data-aos="flip-left">
 				<img src="img/3.jpeg" alt="">
 				<h3><a href="#">NEWS HEADING HERE</a></h3>
 				<div class="post-date">april 30, 2020</div>
@@ -131,8 +132,8 @@
 				<a href="#" class="readmore">READ MORE</a>
 			</div>
 		</div>
-		<div class="col-md-6 col-lg-3">
-			<div class="news-post">
+		<div class="col-md-6 col-lg-3" >
+			<div class="news-post" data-aos="flip-left">
 				<img src="img/4.jpeg" alt="">
 				<h3><a href="#">NEWS HEADING HERE</a></h3>
 				<div class="post-date">april 30, 2020</div>
@@ -141,7 +142,7 @@
 			</div>
 		</div>
 		<div class="col-md-6 col-lg-3">
-			<div class="news-post">
+			<div class="news-post" data-aos="flip-left">
 				<img src="img/5.jpeg" alt="">
 				<h3><a href="#">NEWS HEADING HERE</a></h3>
 				<div class="post-date">april 30, 2020</div>
@@ -160,22 +161,22 @@
 		<div class="col-md-12">
 			<h2 class="section-head">CONNECT US</h2>
 			<div class="col-3 float-right ">
-				<div class="icons ">
+				<div class="icons " data-aos="flip-up">
 				<a href=""><i class="fa fa-facebook-square"></i></a>
 				</div>
 			</div>
 			<div class="col-3 float-right">
-				<div class="icon">
+				<div class="icon" data-aos="flip-up">
 				<a href=""><i class="fa fa-linkedin-square"></i></a>
 				</div>
 			</div>
 			<div class="col-3 float-right">
-				<div class="icon">
+				<div class="icon" data-aos="flip-up">
 				<a href=""><i class="fa fa-instagram"></i></a>
 				</div>
 			</div>
 			<div class="col-3 float-right">
-				<div class="icon">
+				<div class="icon" data-aos="flip-up">
 				<a href=""><i class="fa fa-twitter-square"></i></a>
 				</div>
 			</div>
@@ -241,11 +242,20 @@
  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
+
+<script src="jquery.js"></script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
    <script type="text/javascript">
-   	var x=document.getElementById('loading');
- function load(){
-x.style.display ='none';
- };
+   $(document).ready(function() {
+   $('#loading').css('display','none');
+    AOS.init({
+    	duration: 1000,
+    });
+  
+   });
+
+  
+ 
    </script>
 </body>
 </html>
